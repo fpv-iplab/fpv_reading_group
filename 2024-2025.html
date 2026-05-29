@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8" />
+    <title>2024-2025 | Reading Group @ IPLAB</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="GravCMS" />
+    <meta name="description" content="Reading Group @ IPLAB" />
+
+    <link rel="icon" type="image/png" href="user/themes/workshop/images/logo.png" />
+    <link rel="canonical" href="index.html" />
+
+    <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" type="text/css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css"
+        rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext" type="text/css"
+        rel="stylesheet" />
+    <link href="user/themes/workshop/css/custom.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" type="text/css" rel="stylesheet" />
+    <link href="user/plugins/markdown-notices/assets/notices.css" type="text/css" rel="stylesheet" />
+    <link href="user/plugins/external_links/assets/css/external_links.css" type="text/css" rel="stylesheet" />
+    <link href="user/plugins/form/assets/form-styles.css" type="text/css" rel="stylesheet" />
+    <link href="user/plugins/featherlight/css/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <link href="user/plugins/login/css/login.css" type="text/css" rel="stylesheet" />
+
+
+    <script src="system/assets/jquery/jquery-2.x.min.js"></script>
+    <script src="user/plugins/featherlight/js/featherlight.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('a[rel="lightbox"]').featherlight({
+                openSpeed: 250,
+                closeSpeed: 250,
+                closeOnClick: 'background',
+                closeOnEsc: '1',
+                root: 'body'
+            });
+        });
+
+    </script>
+
+
+</head>
+<style>
+    a,
+    .header {
+        color: #346093;
+    }
+
+    .header hr {
+        border-top: 2px solid #346093;
+    }
+
+    .footer,
+    .bottom-nav ul,
+    .footer .acronym,
+    .main-nav ul,
+    .main-nav ul li ul {
+        background-color: #2980b9;
+    }
+
+    .main-nav ul li:hover>a {
+        background-color: #42729B;
+    }
+
+    a:hover {
+        color: #42729B;
+    }
+</style>
+
+<body id="top" class="">
+    <main>
+        <div class="header">
+            <div class="wrapper padding">
+                <a class="logo" href="index.html">
+                    <img src="user/themes/workshop/images/header.png" />
+                </a>
+                <hr>
+                <div class="subtitle">Reading Group @ IPLAB<br>
+                </div>
+            </div>
+        </div>
+        <div id="nav-placeholder"></div>
+
+        <section id="body">
+            <div class="wrapper padding">
+                <div class="nav-text">
+                    Reading Group @ IPLAB / 2024-2025
+                </div>
+                <h3>Academic Year 2024/2025</h3>
+                <p>Instructors: Francesco Ragusa, Rosario Leonardi</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Room</th>
+                            <th>Paper Title</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>17/04/2025</td>
+                            <td>10.00-13.00</td>
+                            <td>Aula 25</td>
+                            <td>LEGO: Learning EGOcentric Action Frame Generation via Visual Instruction Tuning</td>
+                            <td><a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01383.pdf"
+                                    target="_blank" rel="nofollow noopener noreferrer"
+                                    class="external-link no-image">link</a></td>
+                        </tr>
+                        <tr>
+                            <td>22/05/2025</td>
+                            <td>10.00-13.00</td>
+                            <td>Aula 36</td>
+                            <td>Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models
+                            </td>
+                            <td><a href="https://arxiv.org/pdf/2409.17146" target="_blank"
+                                    rel="nofollow noopener noreferrer" class="external-link no-image">link</a></td>
+                        </tr>
+                        <tr>
+                            <td>05/06/2025</td>
+                            <td>10.00-13.00</td>
+                            <td>IPLAB</td>
+                            <td>Mip-Splatting: Alias-free 3D Gaussian Splatting</td>
+                            <td><a href="https://arxiv.org/pdf/2311.16493.pdf" target="_blank"
+                                    rel="nofollow noopener noreferrer" class="external-link no-image">link</a></td>
+                        </tr>
+                        <tr>
+                            <td>26/06/2025</td>
+                            <td>10.00-13.00</td>
+                            <td>Aula 124</td>
+                            <td>VGGT: Visual Geometry Grounded Transformer</td>
+                            <td><a href="https://arxiv.org/abs/2503.11651" target="_blank"
+                                    rel="nofollow noopener noreferrer" class="external-link no-image">link</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="sponsors">
+            <div class="wrapper padding">
+
+        </section>
+        </div>
+    </main>
+
+    <script>
+        fetch('nav.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('nav-placeholder').innerHTML = data;
+
+                let currentPage = window.location.pathname.split("/").pop();
+                if (currentPage === "") currentPage = "index.html"; 
+
+                const navLinks = document.querySelectorAll('.main-nav a');
+
+                navLinks.forEach(link => {
+                    if (link.getAttribute('href') === currentPage) {
+                        link.parentElement.classList.add('selected');
+                    }
+                });
+            });
+    </script>
+
+</body>
+
+
+</html>
